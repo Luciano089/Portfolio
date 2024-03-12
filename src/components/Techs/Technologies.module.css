@@ -1,0 +1,52 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 60px;
+  margin-top: 129px;
+
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.title {
+
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+}
+
+.content {
+ 
+  align-items: center;
+}
+
+.TechItems {
+  font-size: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  margin: 10px;
+}
+
+
+
+@media screen and (max-width: 830px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+  .TechItems {
+    font-size: 88px;
+  }
+
+ 
+}
