@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import { RiMenuLine, RiCloseLine } from "react-icons/ri"; // Importando os ícones do React Icons
+import { RiMenuLine, RiCloseLine } from "react-icons/ri"; 
 import styles from "./Navbar.module.css";
 
 export const Navbar = () => {

@@ -1,9 +1,8 @@
 import React from "react";
-import styles from "./technologies.module.css";
+import styles from "../Techs/Technologies.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faHtml5, faCss3, faJs, faNode,  } from "@fortawesome/free-brands-svg-icons";
 import { SiExpress, SiMysql} from "react-icons/si"
-
 
 export const Technologies = () => {
   return (

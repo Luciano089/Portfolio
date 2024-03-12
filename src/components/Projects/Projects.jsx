@@ -1,7 +1,6 @@
 import React from "react";
 import projects from "../../data/projects";
-import styles from "../Projects/projects.module.css";
-// import projectImage from "../../assets/projects/project.png";
+import styles from "../Projects/Projects.module.css";
 import projectImage from "../../assets/projects/imgcodigo.avif";
 
 
