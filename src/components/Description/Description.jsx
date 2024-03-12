@@ -22,15 +22,17 @@ export const Description = () => {
           <a
             href="mailto:lucianosena21335@gmail.com"
             className={styles.contactBtn}
+            target="_blank"
           >
             Contato
           </a>
 
           <a
-            href="mailto:lucianosena21335@gmail.com"
+            href="https://drive.google.com/file/d/10YICpw2cB_Kxg_i3P49tfOLQ3VPWvoFk/view?usp=drive_link"
+            target="_blank"
             className={styles.contactBtn}
           >
-            Baixe Meu Curriculo
+            Meu Currículo
           </a>
           <div className={styles.socialNetworks}>
             <a href="https://github.com/Luciano089" target="_blank">
