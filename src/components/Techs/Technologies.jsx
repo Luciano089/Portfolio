@@ -7,7 +7,7 @@ import { SiExpress, SiMysql} from "react-icons/si"
 export const Technologies = () => {
   return (
     <section className={styles.container}>
-      <h1 className={styles.title} id="techs">Técnologias</h1>
+      <h1 className={styles.title} id="techs">Tecnologias</h1>
       <div className={styles.content}>
       <FontAwesomeIcon icon={faHtml5} style={{color: "#ff6600"}} className={styles.techItems} />
       <FontAwesomeIcon icon={faCss3} style={{color: "blue",}} className={styles.techItems} />
